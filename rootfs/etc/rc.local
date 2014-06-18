@@ -11,10 +11,8 @@
 #
 # By default this script does nothing.
 
-/etc/rc.firewall.sh
+/usr/bin/python3 /etc/iptables-wrapper/firewall_desktop.py
 
-#diff -r /boot /backup/2013-11-17-desktop-boot || aplay --device=default:CARD=Quartet /root/noise
-diff -r /boot /backup/2013-11-17-desktop-boot || aplay --device=default /root/noise
-umount /boot
+aplay --device="plughw:CARD=Quartet,DEV=0" /root/noise
 
 exit 0
