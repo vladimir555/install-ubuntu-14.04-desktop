@@ -25,10 +25,14 @@ SAVEHIST=10000
 alias tetr='/home/volodja/workspace/shell/translate-en-to-ru.sh $1'
 alias trte='/home/volodja/workspace/shell/translate-ru-to-en.sh $1'
 alias less='/home/volodja/workspace/shell/less.sh $1'
+alias ids='/home/volodja/workspace/shell/internet-duckduckgo-search.sh $1'
+alias igs='/home/volodja/workspace/shell/internet-google-search.sh $1'
+alias iys='/home/volodja/workspace/shell/internet-yandex-search.sh $1'
+alias ims='/home/volodja/workspace/shell/internet-mail-search.sh $1'
 
 # Set up must-have aliases and alias file.
 #
-alias ls='ls --color=auto'
+alias ls='clear && ls --color=auto'
 alias ll='ls -lh'
 alias la='ls -a'
 alias l='ls'
